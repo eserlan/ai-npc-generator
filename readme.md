@@ -1,0 +1,1 @@
+Where I fiddle with Kotlin and ChatGPT APIs to create rpg npcs
