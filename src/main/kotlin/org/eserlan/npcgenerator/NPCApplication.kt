@@ -6,7 +6,10 @@ import org.springframework.boot.runApplication
 @SpringBootApplication
 class NPCApplication {
 
-    fun main(args: Array<String>) {
-        runApplication<NPCApplication>(*args)
+    companion object {
+        @JvmStatic
+        fun main(args: Array<String>) {
+            runApplication<NPCApplication>(*args)
+        }
     }
 }
