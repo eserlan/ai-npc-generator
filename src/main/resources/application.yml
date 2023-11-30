@@ -1,3 +1,4 @@
 chatgpt:
-  key: "sk-...hqaQ"
-  url: "https://api.url.com"
+  key: ${CHAT_GPT_KEY}
+  url: "https://api.openai.com/v1/chat/completions"
+  timeout: 60

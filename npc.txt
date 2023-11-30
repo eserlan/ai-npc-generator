@@ -1,0 +1,14 @@
+Character Name: Thaddeus Thornshield
+Race: Human
+Class: Fighter
+People and Setting: Thaddeus is a seasoned caravan guard in his mid thirties. Born in a small village, where he learned the basics of fighting from the local guard captain, he took up the trade of guarding merchant caravans travelling through dangerous territories to support his family. 
+
+Appearance: Thaddeus stands about 6'2" tall, with a broad muscular build from his years on the road. He has a dark matted beard, shaggy dark hair, and a deep scar running across the bridge of his nose. His eyes are a piercing icy blue, reflecting his gritty determination and stoicism. He prefers wearing simple but durable clothing. He carries a well-worn longsword and a sturdy round shield bearing the emblem of his current employer.
+
+Personality: Thaddeus is a man of few words, preferring to let his sword do the talking. He’s fiercely loyal to those who employ him, but also values his freedom and the open road. He's not the type to start fights, but always finishes them. He appreciates a good tankard of ale and a hearty stew after a long day, adding an endearing rustic charm to his otherwise stern demeanor.
+
+Skills & Abilities: Thaddeus is skilled in combat; he has a high strength and constitution stat. He excels in using weapons like the longsword and is also adept at combat strategies. His years as a caravan guard have given him good perception and decent survival skills. This, paired with his natural athleticism, makes him reliable and hard to bypass.
+
+Gear: His main gear consists of a longsword and a reinforced round shield. He wears a suit of chainmail armor under his travel-worn cloak. He also carries a crossbow for long-range attacks along with a basic healing kit for emergencies.
+
+Backstory: A man who has seen everything and forgets nothing, Thaddeus's past is cataloged in the scars on his body. He was once a simple shepherd, but fate thrust the sword into his hands. The life of a guard has taught him much about the world and its harsh realities, hardening him yet not dulling his sense of right and wrong. He dreams of retiring with a good stash of gold, but for now, the road remains his home.
