@@ -9,6 +9,23 @@ class ChatGPTServiceTest {
     @Test
     fun extractName() {
         val service = ChatGPTService(ChatGPTConfiguration())
-        service.extractName("Name: Bob\nRole: Guard").let { assertEquals("Bob", it) }
+        assertEquals("Bob", service.extractName("Name: Bob\nRole: Guard"))
+    }
+
+    @Test
+    fun extractNameFromLine2() {
+        val service = ChatGPTService(ChatGPTConfiguration())
+        assertEquals("Bob", service.extractName("----\nName: Bob\nRole: Guard"))
+    }
+    @Test
+    fun extractNameFromCorrect() {
+        val service = ChatGPTService(ChatGPTConfiguration())
+        assertEquals("Bob", service.extractName("----\n\n**Name**: Bob\nRole: Guard"))
+    }
+
+    @Test
+    fun extractNameAndStripStars() {
+        val service = ChatGPTService(ChatGPTConfiguration())
+        assertEquals("Bob", service.extractName("----\n\n**Name:** Bob\nRole: Guard"))
     }
 }

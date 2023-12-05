@@ -1,0 +1,45 @@
+**Name**: Levente
+___
+**Race**: Human
+___
+**Class**: Warrior
+___
+**Background**: Horselord
+___
+**Alignment**: Neutral Good
+___
+**Level**: 5
+___
+**Strength**: 16
+___
+**Dexterity**: 13
+___
+**Constitution**: 14
+___
+**Intelligence**: 9 
+___
+**Wisdom**: 12
+___
+**Charisma**: 15
+___
+**Armor Class**: 16
+___
+**Proficiencies**: Animal Handling, Athletics, Intimidation, Survival
+___
+**Languages**: Common, Magyar
+___
+**Weapons**: Longsword (1d8 slashing), Shield, Shortbow (1d6 piercing)
+___
+**Equipment**: Studded leather armor, a horseman’s pick, a shortbow and quiver with 20 arrows, traveler’s clothes, and a pouch containing 10 gp
+___
+**Traits**: 
+   - **Proud**: Levente has a strong sense of self-worth and carries himself with an air of authority.
+   - **Young**: At age 21, Levente is revered as the youngest horselord of the Magyar.
+___
+**Skills**: Horse Riding, Martial Combat, Animal Training
+___
+**Backstory**: Levente was born and raised within the confines of the Magyar horse nomads. From a young age, he showed a natural affinity with horses, which led to him becoming a Horselord - a person entrusted with the care and command of the tribe's horses. His unique combat style, which he honed while keeping the tribe safe from wild monsters and rival clans, has proven to be a crucial asset. Despite his young age, his wisdom combined with his bravery has earned him the respect and admiration of his tribe.
+
+___
+**Midjourney Oneliner**: "Levente, the young Horselord Warrior from the proud Magyar nomads, rides fearlessly towards destiny, his spirit as untamed as his beloved steeds."
+___

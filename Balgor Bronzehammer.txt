@@ -1,0 +1,35 @@
+Name: Balgor Bronzehammer
+
+Race: Dwarf
+
+Occupation: Caravan Master
+
+Age: 178 years 
+
+Alignment: Lawful Neutral
+
+Class: Merchant/Rogue
+
+Background: Guild Artisan
+
+Appearance: Balgor stands at a stout 4.5 feet, with a beard braided with bronze rings. He's always seen hauling his hefty pack full of trade goods. His eyes gleam with business acumen under his weather-beaten, wide-brimmed hat. His clothes are often dusty from the road but always of good quality.
+
+Skills: Trade (especially in precious metals and exquisite stones), Caravan management, Defensive combat, Appraising, Haggling, Navigation
+
+Weapons: Balgor prefers a sturdy warhammer and a round shield both adorned with the symbols of his trade guild. Besides these, he always carries a concealed dagger for unforeseen circumstances.
+
+Abilities:
+- Stonecunning: History checks related to the origin of stonework have double proficiency bonus.
+- Lucky: When rolling a 1 on the d20 for an attack roll, ability check, or saving throw, reroll the dice and must use the new roll.
+- Nimble Agility: Moving through the space of any hostile creature larger than Balgor's size does not cost him extra movement. 
+- Guild Membership: Gets assistance and social benefit from guild members. 
+
+Personality Traits: Balgor is hard-nosed and tight-fisted, often seen as cranky and gruff, especially when it comes to pricing his goods. However, those close to him know his gruff exterior hides a loving heart who cares deeply for his fellow travelers and ensures their safety and security at all times.
+
+Ideal: "Trade is the lifeblood of civilization. I will strive to uphold it and avoid any endeavor that seeks to disrupt it."
+
+Bond: Loyalty to his guild and his homeland. He dreams of returning to his ancestral mountain city with enough wealth to secure a comfortable and prestigious position within his clan.
+
+Flaw: Can sometimes be excessively frugal, and uncompromising on pricing. His greed and stringent business practices occasionally lead to conflicts.
+
+Background story: Balgor has spent most of his dwarfish life among human cities, plying the merchant's trade and preferring the human's bustling towns over the serene grandeur of dwarf halls. Despite his gruff demeanor, he has a soft spot for wanderers and adventurers, and often hires them to protect his caravan during his business travels. He dreams of one day finding the legendary lost treasure of the dwarven king Underhammer, and returning to his kin as a wealthy hero.

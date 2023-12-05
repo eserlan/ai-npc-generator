@@ -1,0 +1,37 @@
+Character Name: Zargoth Sandstalker
+
+Race: Orc
+Gender: Male
+Age: 26 (Young for an orc)
+
+Background: Born into the harsh environs of the Ember Dune, Zargoth Sandstalker hails from the Sunfire Tribe - a nomadic orcish clan known for their unprecedented survival instincts and hardy warriors. Even as a child, Zargoth was constantly tested by the unforgiving desert, molding him into the restless survivalist he is today.
+
+Appearance: Zargoth's orcish lineage is undeniable, with broad shoulders, bulky muscles and a naturally towering figure symbolizing his strength. His skin carries a deep bronze hue, a product of lifelong exposure to the blazing desert sun. Zargoth is devoid of hair, per Sunfire Tribe tradition, which consider it a hindrance in the searing desert heat. He has piercing yellow eyes that glint like gold under sunlight. Scars, the artwork of past struggles, dot his body, speaking volumes of the trials he has faced and survived.
+
+Occupation: As a desert tracker and hunter, Zargoth is specifically adept at maneuvering through hostile terrains, hunting elusive beasts for sustenance, and utilizing every part of his kills to craft weapons, armors, tools, and remedies.
+
+Class: Ranger (Desert subclass)
+Alignment: Chaotic Good – Zargoth lives by his own code of the desert, doing whatever it takes to survive and help others do the same.
+
+Statistics: 
+- Strength: 16
+- Dexterity: 16
+- Constitution: 18
+- Intelligence: 10
+- Wisdom: 14
+- Charisma: 8
+
+Skills: 
+- Survival: Expert. Trained in the harsh environment, he can identify natural hazards, find food and water, and track even the most elusive beasts. 
+- Athletics: Proficient. His orcish lineage combined with his lifestyle ensures he is a competent climber, jumper, and swimmer.
+- Nature: Proficient. Living in the unforgiving wilds has taught him to respect and understand the natural world around him.
+
+Equipment: Bow made from bones of a sand serpent and arrows with tips carved from its fangs, a spear with a polished bone handle and flint head, and an armor set made from the sturdy hide of a desert wurm.
+
+Trait: Restless. Zargoth's tolerance for inactivity is low; he lives for the thrill of the hunt, the satisfaction of a successful track, the rush of evading the desert’s dangerous weather.
+Ideals: Survival. Life is a constant battle for survival, and every creature does what they must to stay alive.
+Bonds: Tribe. Despite his restlessness, he is loyal to his tribe. He hunts for the betterment of his clan, not just himself.
+Flaws: Stubborn. Zargoth is headstrong and often lets pride get in the way of accepting help or knowing when to retreat.
+Languages: Common, Orc. 
+
+Zargoth is a survivalist, a guide, and a formidable desert warrior, a testament to the orcs' adaptability and resilience. The desert is as much a part of him as he is of the desert. Regardless of where his adventures lead him, the Ember Dune remains his unforgiving but beloved home.

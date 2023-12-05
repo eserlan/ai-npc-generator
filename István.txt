@@ -1,0 +1,33 @@
+# NPC Character Profile 
+
+**Name**: István
+
+**Race**: Human
+
+**Class**: Civilian Leader
+
+**Age**: Middle aged 
+
+**Background**: He's a Magyar descended man, born and bred village leader
+
+**Alignment**: Neutral good
+
+**Languages**: Common and Magyar native language
+
+**Appearance**: Dark, close-cropped hair with streaks of gray, weathered face with deep lines from years of both concern and laughter. Stands straight with a natural, captivating aura that teems with authority. Always seen wearing traditional Magyar attire, with an intricate silver amulet passed down through generations.
+
+**Abilities**: Exceptionally charismatic, adept in diplomacy and conflict resolution. Highly knowledgeable about local customs and history, proficient in survival skills.
+
+**Equipment**: Has a staff of office, ceremonial attire, flask of home-brewed potion for minor healing, a ring signifying his authority and a pouch of local currency.
+
+**Personality**: István is fair, wise and patient. He holds a deep love for his people and village. He's respected and cherished by his villagers, even when he implements hard decisions for the betterment of their lives.
+
+**Background story**: István was born in a family with a long line of village leaders. From a young age, he received teachings on leadership and survival skills. Over time, István has managed to steer his village through various adversities and maintained peace among villagers.
+
+**Role in the Campaign**: István could provide the adventures with valuable information about local phenomena, customs or issues. Due to his status, he could also grant or deny the party access to certain resources or information.
+
+---
+
+### Midjourney One-liner
+
+"István, the stoic village leader with a heart full of concern for his people, ever ready to guide his village through the winds of change."

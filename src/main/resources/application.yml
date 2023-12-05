@@ -2,3 +2,11 @@ chatgpt:
   key: ${CHAT_GPT_KEY}
   url: "https://api.openai.com/v1/chat/completions"
   timeout: 60
+
+
+scabard:
+  key: ${SCABARD_KEY}
+  url: "https://www.scabard.com/api/v0/campaign"
+  username: espene
+  campaignId: 2507706
+  timeout: 60

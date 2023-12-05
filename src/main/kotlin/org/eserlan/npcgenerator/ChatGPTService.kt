@@ -30,7 +30,9 @@ class ChatGPTService(@Qualifier("chatGPTConfiguration") var conf: ChatGPTConfigu
         // Here you can change the model's settings, add tools, and more.
         val request = chatRequest {
             model("gpt-4")
-            addMessage("Help the user with creating a fantasy rpg tabletop ncp character. Dont tell me the process, just provide the info".toSystemMessage())
+            addMessage("Help the user with creating a fantasy rpg tabletop ncp character".toSystemMessage())
+            addMessage("Dont tell me the process, just provide the info. Pls style the output in markdown".toSystemMessage())
+            addMessage("Pls also add a oneliner for Midjourney".toSystemMessage())
         }
 
         val input = args[0]
@@ -57,7 +59,15 @@ class ChatGPTService(@Qualifier("chatGPTConfiguration") var conf: ChatGPTConfigu
     fun extractName(npc: String?): String {
         val lines = npc?.lines()
         var nameLine = ""
-        if (lines != null) nameLine = lines[0]
+
+        for (line in lines!!) {
+
+            line.lowercase().trim().contains("name").let {
+                if (it) {
+                    nameLine = line.replace("*", "")
+                }
+            }
+        }
 
         return nameLine.substringAfter(":").trim()
     }
