@@ -104,6 +104,7 @@ class ScabardService(
             .build()
 
         val descAndSecrets : Pair<String, String> = converter.parseHtml(html)
+        println("descAndSecrets = $descAndSecrets")
 
 
 //        val character = Character(
@@ -127,7 +128,7 @@ class ScabardService(
 
 
         val concept = "character"
-        val conceptId = "3102397"
+//        val conceptId = "3102397"
 
         val result = webClient.post()
             .uri("/${conf.campaignId}/$concept")

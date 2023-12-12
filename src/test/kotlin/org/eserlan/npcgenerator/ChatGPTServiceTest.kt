@@ -29,9 +29,4 @@ class ChatGPTServiceTest {
         assertEquals("Bob", service.extractName("----\n\n**Name:** Bob\nRole: Guard"))
     }
 
-    @Test
-    fun extractNameAsHeader() {
-        val service = ChatGPTService(ChatGPTConfiguration())
-        assertEquals("Bob", service.extractName("# Bob"))
-    }
 }

@@ -1,6 +1,8 @@
 package org.eserlan.npcgenerator
 
 import org.junit.jupiter.api.Test
+import org.mockito.Mockito
+import org.mockito.Mockito.`when`
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
@@ -15,8 +17,15 @@ class NPCControllerTest (@Autowired val mockMvc: MockMvc){
 
     @MockBean
     lateinit var chad: ChatGPTService
+    @MockBean
+    lateinit var scabardService: ScabardService
+    @MockBean
+    lateinit var converterService: ConverterService
     @Test
     fun helloKotlin() {
+
+        `when`(chad.callChad(arrayOf("a fantasy npc"))).thenReturn(Pair("", ""))
+
         mockMvc.perform(get("/createNpc")
             .accept(MediaType.APPLICATION_JSON))
             .andExpect(status().isOk)

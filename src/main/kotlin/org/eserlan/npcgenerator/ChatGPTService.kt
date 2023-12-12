@@ -92,9 +92,9 @@ class ChatGPTService(@Qualifier("chatGPTConfiguration") var conf: ChatGPTConfigu
         val lines = npc?.lines()
         var nameLine = ""
         
-        var firstLine = lines!![0]
+//        var firstLine = lines!![0]
 
-        for (line in lines) {
+        for (line in lines!!) {
 
             line.lowercase().trim().contains("name").let {
                 if (it) {
