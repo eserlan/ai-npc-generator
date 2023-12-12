@@ -1,3 +1,8 @@
+logging:
+  level:
+    org.springframework.web: DEBUG
+    reactor.netty.http.client.HttpClient: DEBUG
+
 chatgpt:
   key: ${CHAT_GPT_KEY}
   url: "https://api.openai.com/v1/chat/completions"
@@ -6,7 +11,8 @@ chatgpt:
 
 scabard:
   key: ${SCABARD_KEY}
-  url: "https://www.scabard.com/api/v0/campaign"
+  url: "https://www.scabard.com/api/v0/campaign/"
   username: espene
-  campaignId: 2507706
+#  campaignId: 2507706
+  campaignId: 3035520
   timeout: 60

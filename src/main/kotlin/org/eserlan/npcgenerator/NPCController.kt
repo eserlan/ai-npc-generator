@@ -5,12 +5,38 @@ import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-class NPCController (val chad: ChatGPTService){
+class NPCController(
+    val chad: ChatGPTService,
+    val scabard: ScabardService,
+    val converter: ConverterService
+) {
 
-    @GetMapping("/hello")
-    fun helloKotlin(@RequestParam(required = false, defaultValue = "World") name: String): String? {
-        println("request: $name")
+    @GetMapping("/createNpc")
+    fun createNpc(@RequestParam(required = false, defaultValue = "a fantasy npc") query: String): String? {
+        println("request: $query")
 
-        return chad.callChad(arrayOf(name))
+        val npcAndName = chad.callChad(arrayOf(query))
+        val md = npcAndName.first
+        val name = npcAndName.second
+
+        val html = converter.convertMarkdownToHtml(md)
+
+        chad.writeHtmlNpcToFile(name, html)
+
+        scabard.post(name, query, html)
+
+
+        return html
+    }
+
+
+    @GetMapping("/getFromScabard")
+    fun getFromScabard(): String? {
+        return scabard.get(
+            arrayOf(
+                "character",
+                "3102397"
+            )
+        )
     }
 }

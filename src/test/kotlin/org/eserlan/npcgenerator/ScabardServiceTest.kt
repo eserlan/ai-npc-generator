@@ -6,7 +6,6 @@ import org.junit.jupiter.api.condition.EnabledIfSystemProperty
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.context.TestPropertySource
-import org.springframework.test.context.junit.jupiter.EnabledIf
 
 @SpringBootTest
 @TestPropertySource(locations = ["classpath:application.yml"])
@@ -18,11 +17,21 @@ class ScabardServiceTest {
 
     @Test
     @EnabledIfSystemProperty(named = "scabard-integration", matches = "true")
-    fun updateScabard() {
+    fun getFromScabard() {
 
-        val characterDesc = service.get(arrayOf("character", "2991708"))
+        val characterDesc = service.get(arrayOf("character", "3102397"))
         println(characterDesc)
 
     }
+    @Test
+    @EnabledIfSystemProperty(named = "scabard-integration", matches = "true")
+    fun postToScabard() {
+
+        val characterDesc = service.post("Jarik", "silent magyar blacksmith", "something something html")
+        println(characterDesc)
+
+    }
+
+
 
 }

@@ -1,0 +1,15 @@
+POST https://www.scabard.com/api/v0/campaign/2507706/character
+Content-Type: application/json
+username: espene
+accessKey: 6705681680770130559
+
+{"briefSummary":"old and lazy ranch hand","isSecret":"false","description":"shirks work whenever he can","secrets": "is in hiding", "gmSecrets": "Just secrets", "name": "Barkas the Old","concept": "Character"}
+
+
+###
+GET https://www.scabard.com/api/v0/campaign/2507706/character/3102397
+Accept: application/json
+Username: espene
+accessKey: 1014429309216509231
+
+###

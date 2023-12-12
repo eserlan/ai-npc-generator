@@ -17,7 +17,7 @@ class NPCControllerTest (@Autowired val mockMvc: MockMvc){
     lateinit var chad: ChatGPTService
     @Test
     fun helloKotlin() {
-        mockMvc.perform(get("/hello")
+        mockMvc.perform(get("/createNpc")
             .accept(MediaType.APPLICATION_JSON))
             .andExpect(status().isOk)
     }

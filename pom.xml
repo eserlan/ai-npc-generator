@@ -67,12 +67,18 @@
             <version>2.0.2</version>
         </dependency>
 
-
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
             <version>4.12.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.15.4</version>
+        </dependency>
+
         <!-- TEST LIBS-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -90,6 +96,11 @@
             <version>4.0.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.github.oshai</groupId>
+            <artifactId>kotlin-logging-jvm</artifactId>
+            <version>5.1.1</version>
+        </dependency>
 
     </dependencies>
 
@@ -100,9 +111,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-<!--                <configuration>-->
-<!--                    <mainClass>org.eserlan.npcgenerator.NPCApplication</mainClass>-->
-<!--                </configuration>-->
+                <!--                <configuration>-->
+                <!--                    <mainClass>org.eserlan.npcgenerator.NPCApplication</mainClass>-->
+                <!--                </configuration>-->
             </plugin>
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
